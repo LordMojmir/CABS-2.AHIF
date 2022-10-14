@@ -1,0 +1,17 @@
+(Wyrwas, g3)
+
+[[ Multithreading vs Singlethreading ]]
+
+>> Differences between Multithreading and Singlethreading Technologies
+
+A variety of ways have been developed to achieve multitaking on a computer system.
+Some of them, for example SMT [which stands for Simultaneous Multithreading' or NUMA [Non-Uniform Memory Access] relies
+on having multiple physical processing units, each capable of running independently of the other ones. In most cases, the
+processing units are not completely separate CPUs, but cores or threads instead.
+
+On older systems built around a single core, single thread CPU, context switching was heavily relied on. The CPU was frequently
+switching between taska to accomplish what appeared to be a multitasking experience.
+While this approach worked well enough for the olden times of computing, more resource inventive programs have
+proven the advantageg of having multiple physical procesors do the job, instead of creating an illusion of a truly multithreaded system.
+
+
