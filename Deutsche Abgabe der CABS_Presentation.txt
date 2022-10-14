@@ -1,0 +1,17 @@
+Singletasking
+Kann nur ein Programm abarbeiten
+Die ersten Betriebssysteme waren singletasking Betriebssysteme
+
+Singletasking 
+ Der Computer führt eine einzelne Aufgabe aus. Nichts anderes wird getan, während der Computer diese Aufgabe ausführt. Ein Großteil eingebetteter Software ist in der Regel Single-Tasking-Systeme, obwohl sie häufig Unterbrechungen zulassen, um eine Aufgabe anzuhalten, um etwas Wichtiges für einen Moment zu tun, bevor sie wieder zur Aufgabe zurückkehren.
+
+Das MS-DOS-Betriebssystem war mehr oder weniger Single-Tasking. Das ist interessant, da Sie Multitasking tatsächlich auf einem Singletasking-System implementieren können!
+
+Ein Single-Tasking-System kann jedoch immer noch mehrere Benutzer unterstützen. Es werden jedoch nur Aufgaben für jeweils einen Benutzer ausgeführt, sodass alle anderen warten müssen, bis diese Aufgabe zuerst abgeschlossen ist. Infolgedessen werden Single-Tasking-Systeme oft als Single-User betrachtet.
+
+Taschenrechner und Digitaluhren sind in der Regel auch Single-Tasking-Systeme, obwohl einige moderne Smartwatches heutzutage Multitasking-fähig sind. Spielkonsolen sind auch oft Singletasking, da Sie sie verwenden würden, um jeweils nur ein Spiel zu spielen. Aber die größeren Konsolensysteme verwenden stattdessen immer noch Multitasking, damit einige andere Aufgaben das Spiel bei Bedarf unterbrechen können. Aber jedes Mehrkernsystem muss Multitaskingfähig sein, da jeder Kern mindestens eine Aufgabe ausführen würde. (Oder müßig auf eine Aufgabe warten.)
+
+Die Definition von Singletasking ist heutzutage auf moderner Hardware etwas bedeutungslos geworden. Multitasking ist zum Standard geworden. Aber in der Vergangenheit, als der durchschnittliche Computer noch so groß wie ein kleines Haus war, waren Computer Single-Tasking und Benutzer mussten eine Warteschlange bilden, um ihre Aufgabe auszuführen.
+
+Was ärgerlich wurde, so dass sie, als sie die Größe der Computer reduzierten, auch Time-Sharing implementierten, damit alle Benutzer ihre Aufgaben ausführen konnten, wann immer sie wollten. Sie müssten nur länger auf Ergebnisse warten.
+
