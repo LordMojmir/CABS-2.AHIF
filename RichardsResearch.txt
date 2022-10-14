@@ -1,0 +1,39 @@
+Multitasking
+-----------------------
+Definition – Multitasking operating system provides the interface for executing the multiple program tasks by single user at a same time on the one computer system. 
+For example, any editing task can be performed while other programs are executing concurrently. 
+Other example, user can open Gmail and Power Point same time.
+
+True Multitasking
+True multitasking is the capable for executing and process multiple tasks concurrently without taking delay instead of switching tasks from one processor to other processor. 
+It can perform couple of tasks in parallel with underlying the H/W or S/W.
+
+Preemptive Multitasking
+Preemptive multitasking is special task that is assigned to computer operating system, in which it takes decision that how much time spent by one task before assigning other task for using the operating system. 
+Operating system has control for completing this entire process, so it is known as “Preemptive”.
+
+Cooperative Multitasking
+Cooperative multitasking is known as “Non-Preemptive Multitasking”. Main goal of Cooperative multitasking is to run currently task, and to release the CPU to allow another task run. 
+This task is performed by calling taskYIELD().Context-switch is executed when this function is called.
+------------------------
+https://digitalthinkerhelp.com/what-is-multitasking-operating-system-with-their-examples-types/#:~:text=Definition%20%E2%80%93%20Multitasking%20operating%20system%20provides%20the%20interface,can%20open%20Gmail%20and%20Power%20Point%20same%20time.
+------------------------
+
+
+Single Tasking
+------------------------
+Monotasking systems, also referred to as single-tasking systems, are operating systems in which only one thread of execution is run at a given time. 
+When an application is executed, it takes control of the whole computer, save for a 'resident' part of the OS which handles system calls and reloads the rest of the system when the application exits. 
+Generally speaking, such systems have little or no protection against malicious software.
+There are two forms of monotasking systems. 
+The first form is where only one program can be running at once (DexOS is a perfect example), 
+with the second form allowing multiple programs to be running simultaneously but only one program can be in focus at a time as a limitation of the user interface (early Unix systems, 
+or imagine Linux with only one TTY device).
+The canonical example of a monotasking operating system is MS-DOS, which falls in between the two forms. While not supporting multitasking directly, 
+MS-DOS allows programs to terminate execution but does not mark the memory they exist in as usable (known as Terminate and Stay Resident). 
+Programs which TSR can be communicated with after they quit by devices and other programs.
+While they are easier to design and write, monotasking operating systems are extremely limited. 
+As a result, nearly all modern general-purpose OS designs are for Multitasking Systems.
+------------------------
+https://wiki.osdev.org/Monotasking_Systems#:~:text=Monotasking%20systems%2C%20also%20referred%20to%20as%20single-tasking%20systems%2C,rest%20of%20the%20system%20when%20the%20application%20exits.
+------------------------
