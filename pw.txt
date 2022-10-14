@@ -11,7 +11,5 @@ processing units are not completely separate CPUs, but cores or threads instead.
 
 On older systems built around a single core, single thread CPU, context switching was heavily relied on. The CPU was frequently
 switching between taska to accomplish what appeared to be a multitasking experience.
-While this approach worked well enough for the olden times of computing, more resource inventive programs have
+While this approach worked well enough for the olden times of computing, more resource intensive programs have
 proven the advantageg of having multiple physical procesors do the job, instead of creating an illusion of a truly multithreaded system.
-
-
