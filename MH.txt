@@ -1,0 +1,6 @@
+since the 60's Multitasing is the standard, before that computer used mostly single tasking, so they would only do one task at a time and not more.
+
+Single Vs Multitasking 
+
+Only can excecute one task at once, so it's much slower. A single Tasking operating system is designed to manage the computer so that one user can effectively do one thing at a time(The Palm OS).
+MS-DOS more or less, because you can implement a multitasking software. 
